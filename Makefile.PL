@@ -7,15 +7,14 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Padre::Plugin::AcmePlayCode' => '0',
                            'Padre::Plugin::CPAN' => '0',
+                           'Padre::Plugin::Encrypt' => '0',
                            'Padre::Plugin::PAR' => '0.03',
                            'Padre::Plugin::PerlCritic' => '0',
                            'Padre::Plugin::PerlTidy' => '0',
                            'Padre::Plugin::Pip' => '0.13',
                            'Padre::Plugin::PluginHelper' => '0.06',
-                           'Padre::Plugin::TabAndSpace' => '0',
                            'Padre::Plugin::Validator' => '0',
                            'Padre::Plugin::ViewInBrowser' => '0',
-                           'Padre::Plugin::WordStats' => '0',
                            'Test::More' => '0'
                          },
           'INSTALLDIRS' => 'site',
