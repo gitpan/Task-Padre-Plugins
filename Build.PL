@@ -8,16 +8,21 @@ my $builder = Module::Build->new(
     dist_author         => 'Gabor Szabo <szabgab@gmail.com>',
     dist_version_from   => 'lib/Task/Padre/Plugins.pm',
    	requires            => {
-		'Padre::Plugin::AcmePlayCode'  => 0,
+		'Padre::Plugin::AcmePlayCode'  => 0,       # depends on Moose
 		'Padre::Plugin::CPAN'          => 0,
 		'Padre::Plugin::Encrypt'	   => 0,
 		'Padre::Plugin::PAR'           => '0.03',
+#		'Padre::Plugin::Parrot'                    # only for people with Parrot on their computer
+#		'Padre::Plugin::PIR'          # this was only a typo
 		'Padre::Plugin::PerlCritic'    => 0,
 		'Padre::Plugin::PerlTidy'      => 0,
-		'Padre::Plugin::PluginHelper'  => '0.06',
+#		'Padre::Plugin::PluginHelper'  => '0.06',  # integrated in Padre
 		'Padre::Plugin::Pip'           => '0.13',
+#		Padre::Plugin::TabAndSpace                  integrated in Padre
+#		Padre::Plugin::UpLowCase                    integrated in Padre
 		'Padre::Plugin::Validator'     => 0,
 		'Padre::Plugin::ViewInBrowser' => 0,
+#		Padre::Plugin::WordStats                    integrated in Padre
 	},
 
     build_requires => {
