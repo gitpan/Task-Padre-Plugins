@@ -1,6 +1,6 @@
 ---
 name: Task-Padre-Plugins
-version: 0.03
+version: 0.04
 author:
   - 'Gabor Szabo <szabgab@gmail.com>'
 abstract: Get many Plugins of Padre at once
@@ -13,21 +13,26 @@ resources:
   license: http://dev.perl.org/licenses/
 requires:
   Padre::Plugin::AcmePlayCode: 0
+  Padre::Plugin::Alarm: 0
   Padre::Plugin::CPAN: 0
+  Padre::Plugin::CSS: 0.02
   Padre::Plugin::Encrypt: 0
+  Padre::Plugin::HTML: 0.03
+  Padre::Plugin::HTMLExport: 0
+  Padre::Plugin::JavaScript: 0.22
   Padre::Plugin::PAR: 0.03
   Padre::Plugin::PerlCritic: 0
   Padre::Plugin::PerlTidy: 0
   Padre::Plugin::Pip: 0.13
-  Padre::Plugin::Validator: 0
   Padre::Plugin::ViewInBrowser: 0
+  Padre::Plugin::XML: 0
 build_requires:
   Test::More: 0
 provides:
   Task::Padre::Plugins:
     file: lib/Task/Padre/Plugins.pm
-    version: 0.03
-generated_by: Module::Build version 0.280801
+    version: 0.04
+generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
