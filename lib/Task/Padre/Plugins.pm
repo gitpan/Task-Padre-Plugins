@@ -3,18 +3,18 @@ package Task::Padre::Plugins;
 use warnings;
 use strict;
 
+our $VERSION = '0.07';
+
+1;
+__END__
+
 =head1 NAME
 
 Task::Padre::Plugins - Get many Plugins of Padre at once
 
 =head1 VERSION
 
-Version 0.06
-
-=cut
-
-our $VERSION = '0.06';
-
+Version 0.07
 
 =head1 SYNOPSIS
 
@@ -39,7 +39,5 @@ Copyright 2008 Gabor Szabo, all rights reserved.
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
-
 =cut
 
-1;
