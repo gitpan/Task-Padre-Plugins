@@ -1,44 +1,35 @@
 ---
-name: Task-Padre-Plugins
-version: 0.05
+abstract: 'Get many Plugins of Padre at once'
 author:
-  - 'Gabor Szabo <szabgab@gmail.com>'
-abstract: Get many Plugins of Padre at once
-license: perl
-resources:
-  MailingList: http://mail.perlide.org/mailman/listinfo/padre-dev
-  Repository: http://svn.perlide.org/padre
-  bugtracker: http://padre.perlide.org/
-  homepage: http://padre.perlide.org/
-  license: http://dev.perl.org/licenses/
-requires:
-  Padre::Plugin::AcmePlayCode: 0
-  Padre::Plugin::Alarm: 0
-  Padre::Plugin::CPAN: 0
-  Padre::Plugin::CSS: 0.02
-  Padre::Plugin::Encrypt: 0
-  Padre::Plugin::HTML: 0.03
-  Padre::Plugin::HTMLExport: 0
-  Padre::Plugin::JavaScript: 0.22
-  Padre::Plugin::PAR: 0.03
-  Padre::Plugin::Perl6: 0
-  Padre::Plugin::PerlCritic: 0
-  Padre::Plugin::PerlTidy: 0
-  Padre::Plugin::Pip: 0.13
-  Padre::Plugin::ViewInBrowser: 0
-  Padre::Plugin::XML: 0
+  - 'Gabor Szabo'
 build_requires:
   Test::More: 0
-provides:
-  Task::Padre::Plugins:
-    file: lib/Task/Padre/Plugins.pm
-    version: 0.05
-generated_by: Module::Build version 0.3
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Padre-Plugins
 no_index:
   directory:
+    - inc
     - t
-    - eg
-    - share
+requires:
+  Padre::Plugin::AcmePlayCode: 0.05
+  Padre::Plugin::Alarm: 0.02
+  Padre::Plugin::CPAN: 0.07
+  Padre::Plugin::CSS: 0.03
+  Padre::Plugin::Encrypt: 0.03
+  Padre::Plugin::HTML: 0.06
+  Padre::Plugin::HTMLExport: 0.01
+  Padre::Plugin::JavaScript: 0.23
+  Padre::Plugin::PAR: 0.04
+  Padre::Plugin::PerlCritic: 0.05
+  Padre::Plugin::PerlTidy: 0.03
+  Padre::Plugin::Pip: 0.13
+  Padre::Plugin::ViewInBrowser: 0
+  Padre::Plugin::XML: 0.03
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.08
