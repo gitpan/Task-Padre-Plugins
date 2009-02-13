@@ -35,4 +35,4 @@ requires:
   Padre::Plugin::XML: 0.05
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.12
+version: 0.13
