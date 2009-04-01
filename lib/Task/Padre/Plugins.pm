@@ -3,7 +3,7 @@ package Task::Padre::Plugins;
 use warnings;
 use strict;
 
-our $VERSION = '0.17';
+our $VERSION = '0.18';
 
 1;
 __END__
@@ -35,20 +35,6 @@ reformat your text within Padre
 =head2 Padre::Plugin::CommandLine
 
 vi and emacs in Padre?
-
-=head3 Edit Config
-
-Edit CPAN/Config.pm
-
-=head3 Install Module
-
-Run cpan $mod inside Padre. behaves like:
-
- perl −MCPAN −e "install $mod"
-
-=head3 Upgrade All Padre Plugins
-
-Upgrade all plugin in one hit
 
 =head2 Padre::Plugin::CSS
 
@@ -96,6 +82,10 @@ use JavaScript::Beautifier to beautify js
 
 use JavaScript::Minifier::XS to minify js
 
+=head2 Padre::Plugin::Nopaste
+
+Padre::Plugin::Nopaste − send code on a nopaste website from Padre
+
 =head2 Padre::Plugin::PAR
 
 Padre::Plugin::PAR − PAR generation from Padre
@@ -108,7 +98,9 @@ This is a simple plugin to run Perl::Critic on your source code.
 
 This is a simple plugin to run Perl::Tidy on your source code.
 
-=head2 Padre::Plugin::Pip
+=head2 Padre::Plugin::PSI
+
+Experimental Padre plugin written in Perl 6
 
 =head2 Padre::Plugin::SVN
 
@@ -140,7 +132,7 @@ You can find documentation for Padre on L<http://padre.perlide.org/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Gabor Szabo, all rights reserved.
+Copyright 2008-2009 Gabor Szabo, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
