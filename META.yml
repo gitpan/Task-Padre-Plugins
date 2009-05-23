@@ -3,9 +3,12 @@ abstract: 'Get many Plugins of Padre at once'
 author:
   - 'Gabor Szabo'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
   Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.790'
+generated_by: 'Module::Install version 0.900'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,25 +19,28 @@ no_index:
     - inc
     - t
 requires:
-  Padre::Plugin::AcmePlayCode: 0.08
-  Padre::Plugin::Alarm: 0.02
-  Padre::Plugin::Autoformat: 0.2.1
-  Padre::Plugin::CSS: 0.05
-  Padre::Plugin::CommandLine: 0.04
+  Padre::Plugin::AcmePlayCode: 0.09
+  Padre::Plugin::Alarm: 0.05
+  Padre::Plugin::Autoformat: 1.1.2
+  Padre::Plugin::CSS: 0.06
+  Padre::Plugin::CommandLine: 0.02
   Padre::Plugin::DataWalker: 0.01
+  Padre::Plugin::Debugger: 0.2
   Padre::Plugin::Encode: 0.1.3
   Padre::Plugin::Encrypt: 0.05
   Padre::Plugin::HTML: 0.08
-  Padre::Plugin::HTMLExport: 0.04
+  Padre::Plugin::HTMLExport: 0.01
   Padre::Plugin::InstallPARDist: 0.01
   Padre::Plugin::JavaScript: 0.25
-  Padre::Plugin::Nopaste: 0.2.0
-  Padre::Plugin::PAR: 0.04
+  Padre::Plugin::Nopaste: 0.2.1
+  Padre::Plugin::PAR: 0.05
   Padre::Plugin::PerlCritic: 0.06
-  Padre::Plugin::PerlTidy: 0.05
+  Padre::Plugin::PerlTidy: 0.06
   Padre::Plugin::Vi: 0.21
   Padre::Plugin::ViewInBrowser: 0.06
   Padre::Plugin::XML: 0.05
 resources:
+  homepage: http://padre.perlide.org/
   license: http://dev.perl.org/licenses/
-version: 0.19
+  repository: http://svn.perlide.org/padre/trunk/Task-Padre-Plugins/
+version: 0.20
