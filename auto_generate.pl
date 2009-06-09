@@ -54,6 +54,7 @@ my %meta_cache;
 
 open(my $fh, '>', 'Makefile.txt');
 
+print $fh "requires 'Padre' => '" . $padre_dist->[0]->version . "';\n";
 foreach my $dist ( sort @requires_dists ) {
     print $dist . "\n";
     my $meta = LoadURI("http://cpansearch.perl.org/dist/$dist/META.yml");
@@ -84,7 +85,7 @@ open(my $fh2, '>', 'Plugins.txt');
 foreach my $dist ( sort (@requires_dists, @feature_dists) ) {
     my $meta = $meta_cache{ $dist };
     my $module = $dist; $module =~ s/\-/\:\:/g;
-    print $fh2 "=head2 $module\n\n$meta->{abstract}\n\n";
+    print $fh2 "=head2 L<$module>\n\n$meta->{abstract}\n\nSee L<$module>\n\n";
 }
 close($fh2);
 

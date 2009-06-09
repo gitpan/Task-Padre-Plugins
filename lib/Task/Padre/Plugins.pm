@@ -3,7 +3,7 @@ package Task::Padre::Plugins;
 use warnings;
 use strict;
 
-our $VERSION = '0.21';
+our $VERSION = '0.22';
 
 1;
 __END__
@@ -20,125 +20,185 @@ If not, they run with the whole text from selected document.
 
 =head1 MODULES
 
-=head2 Padre::Plugin::AcmePlayCode
+=head2 L<Padre::Plugin::AcmePlayCode>
 
 L<Acme::PlayCode> Plugin for L<Padre>
 
-=head2 Padre::Plugin::Alarm
+See L<Padre::Plugin::AcmePlayCode>
+
+=head2 L<Padre::Plugin::Alarm>
 
 Alarm Clock in Padre
 
-=head2 Padre::Plugin::Autoformat
+See L<Padre::Plugin::Alarm>
+
+=head2 L<Padre::Plugin::Autoformat>
 
 reformat your text within Padre
 
-=head2 Padre::Plugin::CSS
+See L<Padre::Plugin::Autoformat>
+
+=head2 L<Padre::Plugin::CSS>
 
 L<Padre> and CSS
 
-=head2 Padre::Plugin::Catalyst
+See L<Padre::Plugin::CSS>
+
+=head2 L<Padre::Plugin::Catalyst>
 
 Simple Catalyst helper interface for Padre
 
-=head2 Padre::Plugin::CommandLine
+See L<Padre::Plugin::Catalyst>
+
+=head2 L<Padre::Plugin::CommandLine>
 
 vi and emacs in Padre ?
 
-=head2 Padre::Plugin::DataWalker
+See L<Padre::Plugin::CommandLine>
+
+=head2 L<Padre::Plugin::DataWalker>
 
 Simple Perl data structure browser Padre
 
-=head2 Padre::Plugin::Debugger
+See L<Padre::Plugin::DataWalker>
+
+=head2 L<Padre::Plugin::Debugger>
 
 Debug Perl code from Padre editor
 
-=head2 Padre::Plugin::Ecliptic
+See L<Padre::Plugin::Debugger>
 
-Padre plugin that provides Eclipse killer features
+=head2 L<Padre::Plugin::Ecliptic>
 
-=head2 Padre::Plugin::Encode
+Padre plugin that provides Eclipse-like useful features
+
+See L<Padre::Plugin::Ecliptic>
+
+=head2 L<Padre::Plugin::Encode>
 
 convert file to different encoding in Padre
 
-=head2 Padre::Plugin::Encrypt
+See L<Padre::Plugin::Encode>
+
+=head2 L<Padre::Plugin::Encrypt>
 
 encrypt/decrypt file in Padre
 
-=head2 Padre::Plugin::Git
+See L<Padre::Plugin::Encrypt>
+
+=head2 L<Padre::Plugin::Git>
 
 Simple Git interface for Padre
 
-=head2 Padre::Plugin::HTML
+See L<Padre::Plugin::Git>
+
+=head2 L<Padre::Plugin::HTML>
 
 L<Padre> and HTML
 
-=head2 Padre::Plugin::HTMLExport
+See L<Padre::Plugin::HTML>
+
+=head2 L<Padre::Plugin::HTMLExport>
 
 export highlighted HTML in Padre
 
-=head2 Padre::Plugin::InstallPARDist
+See L<Padre::Plugin::HTMLExport>
+
+=head2 L<Padre::Plugin::InstallPARDist>
 
 Installation of .par archives into the system
 
-=head2 Padre::Plugin::JavaScript
+See L<Padre::Plugin::InstallPARDist>
+
+=head2 L<Padre::Plugin::JavaScript>
 
 L<Padre> and JavaScript
 
-=head2 Padre::Plugin::Mojolicious
+See L<Padre::Plugin::JavaScript>
+
+=head2 L<Padre::Plugin::Mojolicious>
 
 Simple Mojolicious helper interface for Padre
 
-=head2 Padre::Plugin::Nopaste
+See L<Padre::Plugin::Mojolicious>
+
+=head2 L<Padre::Plugin::Nopaste>
 
 send code on a nopaste website from padre
 
-=head2 Padre::Plugin::PAR
+See L<Padre::Plugin::Nopaste>
+
+=head2 L<Padre::Plugin::PAR>
 
 PAR generation from Padre
 
-=head2 Padre::Plugin::PSI
+See L<Padre::Plugin::PAR>
+
+=head2 L<Padre::Plugin::PSI>
 
 Experimental Padre plugin written in Perl 6
 
-=head2 Padre::Plugin::Parrot
+See L<Padre::Plugin::PSI>
+
+=head2 L<Padre::Plugin::Parrot>
 
 Experimental Padre plugin that runs on Parrot
 
-=head2 Padre::Plugin::Perl6
+See L<Padre::Plugin::Parrot>
+
+=head2 L<Padre::Plugin::Perl6>
 
 Padre plugin for Perl6
 
-=head2 Padre::Plugin::PerlCritic
+See L<Padre::Plugin::Perl6>
+
+=head2 L<Padre::Plugin::PerlCritic>
 
 Analyze perl files with Perl::Critic
 
-=head2 Padre::Plugin::PerlTidy
+See L<Padre::Plugin::PerlCritic>
+
+=head2 L<Padre::Plugin::PerlTidy>
 
 Format perl files using Perl::Tidy
 
-=head2 Padre::Plugin::SVK
+See L<Padre::Plugin::PerlTidy>
+
+=head2 L<Padre::Plugin::SVK>
 
 Simple SVK interface for Padre
 
-=head2 Padre::Plugin::SVN
+See L<Padre::Plugin::SVK>
+
+=head2 L<Padre::Plugin::SVN>
 
 Simple SVN interface for Padre
 
-=head2 Padre::Plugin::SpellCheck
+See L<Padre::Plugin::SVN>
+
+=head2 L<Padre::Plugin::SpellCheck>
 
 check spelling in Padre
 
-=head2 Padre::Plugin::Vi
+See L<Padre::Plugin::SpellCheck>
+
+=head2 L<Padre::Plugin::Vi>
 
 vi keyboard for Padre
 
-=head2 Padre::Plugin::ViewInBrowser
+See L<Padre::Plugin::Vi>
+
+=head2 L<Padre::Plugin::ViewInBrowser>
 
 view selected doc in browser for L<Padre>
 
-=head2 Padre::Plugin::XML
+See L<Padre::Plugin::ViewInBrowser>
+
+=head2 L<Padre::Plugin::XML>
 
 L<Padre> and XML
+
+See L<Padre::Plugin::XML>
 
 =head1 AUTHOR
 
