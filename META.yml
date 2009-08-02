@@ -19,21 +19,23 @@ no_index:
     - inc
     - t
 requires:
-  Padre: 0.38
+  Padre: 0.42
   Padre::Plugin::AcmePlayCode: 0.11
   Padre::Plugin::Alarm: 0.07
   Padre::Plugin::Autoformat: 1.1.2
   Padre::Plugin::CSS: 0.08
+  Padre::Plugin::ClassSniff: 0.01
   Padre::Plugin::CommandLine: 0.02
   Padre::Plugin::DataWalker: 0.01
   Padre::Plugin::Debugger: 0.3
-  Padre::Plugin::Ecliptic: 0.14
+  Padre::Plugin::Ecliptic: 0.16
   Padre::Plugin::Encode: 0.1.3
   Padre::Plugin::Encrypt: 0.06
   Padre::Plugin::HTML: 0.09
   Padre::Plugin::HTMLExport: 0.01
   Padre::Plugin::InstallPARDist: 0.01
   Padre::Plugin::JavaScript: 0.25
+  Padre::Plugin::Kate: 0.01
   Padre::Plugin::Nopaste: 0.2.1
   Padre::Plugin::PAR: 0.05
   Padre::Plugin::PerlCritic: 0.06
@@ -45,4 +47,4 @@ resources:
   homepage: http://padre.perlide.org/
   license: http://dev.perl.org/licenses/
   repository: http://svn.perlide.org/padre/trunk/Task-Padre-Plugins/
-version: 0.23
+version: 0.24
